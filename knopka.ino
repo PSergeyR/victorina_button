@@ -146,7 +146,7 @@ void loop() {
       resetStableState = reading;
 
       // Нажатие RESET
-      if (resetStableState == LOW) {
+      if (resetStableState == HIGH) {
         registerActivity();
         flashAllLeds();
 
